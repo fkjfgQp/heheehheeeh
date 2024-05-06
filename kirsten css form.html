@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+            }
+            .dropbtn {
+                      background-color: #4b7fa1;
+                      color: rgb(240, 246, 253);
+                      padding: 16px;
+                      font-size: 16px;
+                      border: none;
+                      cursor: pointer;
+                      font-family: Arial;
+                      font-weight: bold;
+                    }
+                    
+                    .dropdown {
+                      position: relative;
+                      display: inline-block;
+                    }
+                    
+                    .dropdown-content {
+                      display: none;
+                      position: absolute;
+                      background-color: #acc6e4;
+                      min-width: 160px;
+                      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                      z-index: 1;
+                      font-family: helvetica;
+                    }
+                    
+                    .dropdown-content a {
+                      color: rgb(82, 103, 128);
+                      font-weight: bold;
+                      padding: 12px 16px;
+                      text-decoration: none;
+                      display: block;
+                    }
+                    
+                    .dropdown-content a:hover {background-color: rgb(78, 109, 148);
+                        color: #acc6e4;
+                    font-weight: bolder
+            }
+                    
+                    .dropdown:hover .dropdown-content {
+                      display: block;
+                    }
+                    
+                    .dropdown:hover .dropbtn {
+                      background-color: #205172;
+                      font-weight: bolder;
+                    }
+                   
+           </style>
+            </head>
+            <body>
+                <form>
+                    <label for="name" style="font-family:arial;font-weight: bold;">Name</label>
+                    <input type="text" id="name" name="name">
+                </form>
+                    <div class="dropdown">
+                      <button class="dropbtn">Section ▼</button>
+                      <div class="dropdown-content">
+                      <a href="#">Beno Gutenberg</a>
+                      <a href="#">Reid</a>
+                      <a href="#">Richter</a>
+                      </div>
+                    </div>
+                    </body>
+                    </html>
